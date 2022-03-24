@@ -1,0 +1,251 @@
+@media screen and (max-width: 1265px){
+    .help{
+        height: 230px;
+    }
+    .help-btn{
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    footer{
+        height: 450px;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    /** ----------------Меню----------------- **/
+    .sidebar-fixed{
+        width: 100%;
+        height: 70px;
+        background-color: #2e3035;
+        border-radius: 0;
+    }
+    .sidebar-container{
+        display: flex;
+        align-items: center;
+    }
+    .logo-a{
+        height: 38px;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .logo{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-tel{
+        display: block;
+        z-index: 500;
+    }
+    .menu-btn-call{
+        display: none;
+    }
+    .it-main-blok{
+        margin-top: 70px;
+    }
+
+    /** ----------------Меню----------------- **/
+    .sidecontent-container{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 70px;
+        margin-left: 0;
+    }
+    .header{
+        display: none;
+    }
+    footer{
+        height: 300px;
+        margin-left: 0;
+    }
+    .footer-logo{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    footer{
+        height: 450px;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+}
+
+@media (max-width: 855px){
+    .slider-item h2{
+        font-size: 20px;
+    }
+    .it-main-blok{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 755px){
+    .slider-item h2{
+        font-size: 15px;
+    }
+    .help{
+        height: 250px;
+    }
+    .help-btn{
+        margin-top: 7%;
+    }
+    footer{
+        height: 750px;
+    }
+    .footer-nav{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .footer-blog-2{
+        width: 94%;
+        height: 200px;
+        display: inline-block;
+        text-align: center;
+    }
+    .footer-blog-2 h4{
+        padding-left: 0;
+        margin: 25px 0;
+    }
+    .footer-form{
+        margin: 20px auto 0; 
+    }
+}
+
+@media (max-width: 702px){
+    .sidecontent-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .slick-slide{
+        border-radius: 0;
+        height: 93vh;
+    }
+    .slider-item{
+        height: 93vh;
+        background: linear-gradient(0deg, rgba(48,25,85,1) 0%, rgba(78,13,190,1) 100%);
+    }
+    .slider-item-3{
+        background: linear-gradient(0deg, rgba(64,122,18,1) 0%, rgba(251,255,85,1) 100%);
+    }
+    .slider-text{
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        left: 0;
+        text-align: center;
+    }
+    .slider-text h2{
+        font-size: 35px;
+        padding-top: 5%;
+        padding-left: 0px;
+    }
+    .slider-text a{
+        margin-left: 0px;;
+    }
+    .slider-img{
+        width: 100%;
+        height: 50%;
+        top: 0;
+        right: 0;
+    }
+    .slider-img img{
+        width: 500px;
+        padding-top: 5%;
+    }
+    .help{
+        text-align: center;
+        height: 350px;
+    }
+    .help h2{
+        padding-left: 0;
+    }
+    .help p{
+        width: 80%;
+        padding-left: 0;
+    }
+    .help-btn{
+        margin-top: 10%;
+        margin-right: 0;
+        float: none;
+        display: inline-block;
+    }
+    .it-main-blok{
+        text-align: center;
+        height: 400px;
+    }
+    .it-main-blok::after{
+        top: 40px;
+    }
+    .it-main-blok-text{
+        padding-top: 200px;
+        margin-left: 0;
+        width: 70%;
+    }
+    .it-main-blok-img{
+        top: -30px;
+        right: 50%;
+        margin-right: -150px;
+        width: 300px;
+    }
+    .it-boxes{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .sidebar-container{
+        padding: 0 10px;
+    }
+    .sidecontent-container{
+        padding: 0;
+    }
+    .content{
+        padding: 0 10px;
+    }
+    .slider-img img{
+        width: 300px;
+        padding-top: 40%;
+    }
+    footer{
+        height: 900px;
+    }
+    .footer-nav{
+        width: 200px;
+    }
+    .footer-blog-2{
+        width: 92%;
+    }
+    .it-main-blok{
+        margin-top: 100px;
+    }
+    .it-boxes{
+        text-align: center;
+    }
+    .it-box{
+        margin: 0 auto 30px;
+        width: 280px;
+    }
+    .it-text-blog-img{
+        width: 150px;
+        padding-bottom: 0;
+    }
+    .it-text-blog-img-1{
+        width: 150px;
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 380px){
+    .help{
+        height: 370px;
+    }
+}
